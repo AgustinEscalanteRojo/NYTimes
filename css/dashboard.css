@@ -12,14 +12,14 @@
 }
 
 .card {
-  border: solid 1px #00aeff;
+  border: solid 1px #db8d93;
   border-radius: 4px;
   height: 200px;
   width: 400px;
 }
 
 .title {
-  border-bottom: 1px solid #00aeff;
+  border-bottom: 1px solid #8a171e;
   font-size: 16px;
   font-weight: bold;
   line-height: 1;
