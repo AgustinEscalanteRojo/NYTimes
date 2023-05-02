@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+<header>NYTimes</header>
+
+<div class="container">
+  <h3>Log In</h3>
+  <form id="auth-login-form">
+    <div class="inputController">
+      <label for="email">Email</label>
+      <input type="text" id="email">
+    </div>
+
+    <div class="inputController">
+      <label for="password">Password</label>
+      <input type="password" id="password">
+    </div>
+    <button type="submit">
+      Log in
+    </button>
+  </form>
+
+  <button type="button" id="googleLogin" class="btn btn-info">
+    Google
+  </button><br>
+
+  <a class="cuenta" href="/fetchandpromises/views/signup.html">Create account</a>
+
+</div>
+<script type="module" src="../js/firebase.js"></script>
+<script type="module" src="../js/auth.js"></script>
+</body>
+
+</html>
