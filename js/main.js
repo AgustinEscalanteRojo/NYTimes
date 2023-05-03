@@ -98,7 +98,7 @@ const createCardElement = (data, isDetails = false) => {
 
   const favElement = document.createElement('button')
   favElement.setAttribute('class', 'detailsButton fav-icon')
-  favElement.innerHTML = "<img style='height: 25px' src='icon.png'>"
+  favElement.innerHTML = "<img style='height: 35px' src='icon.png'>"
 
   newCardContentElement.append(
     newestPublishedDate,
