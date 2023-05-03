@@ -1,5 +1,5 @@
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js';
-import { getAuth } from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-auth.js'
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-auth.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -10,22 +10,10 @@ const firebaseConfig = {
   projectId: "nytimes-dd655",
   storageBucket: "nytimes-dd655.appspot.com",
   messagingSenderId: "281579209731",
-  appId: "1:281579209731:web:6e878a1414260a1128fa36"
+  appId: "1:281579209731:web:6e878a1414260a1128fa36",
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 // Initialize Firebase Authentication and get a reference to the service
 export const firebaseAuth = getAuth(app);
-
-
-
-
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDUzKgCYz7SDzzllZrAAxDp4B1HW6pzJAE",
-//   authDomain: "nytime-c3acf.firebaseapp.com",
-//   projectId: "nytime-c3acf",
-//   storageBucket: "nytime-c3acf.appspot.com",
-//   messagingSenderId: "797982734923",
-//   appId: "1:797982734923:web:ddee69df20c29985826bce"
-// };
